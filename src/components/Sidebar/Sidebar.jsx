@@ -55,9 +55,7 @@ const Sidebar = () => {
               style={{ width: "20px", height: "20px" }}
               alt="User Image"
             />
-            <span style={{ paddingLeft: "2%" }}>
-              RITESH TIWARY (Student) <i class="fa fa-caret-down"></i>
-            </span>
+            <span style={{ paddingLeft: "2%" }}>RITESH TIWARY (Student)</span>
           </div>
         </div>
       </div>
