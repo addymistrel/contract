@@ -1,0 +1,80 @@
+.card-item {
+  color: white;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.upper {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 1%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.item1 {
+  cursor: pointer;
+}
+
+.item1 i {
+  padding-left: 5px;
+}
+
+.icon {
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  right: 5px;
+  z-index: 0;
+  font-size: 70px;
+  color: rgba(0, 0, 0, 0.15);
+  transition: font-size 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  font-size: 100px !important; /* Increase the font size on hover */
+  transform: scale(
+    1.1
+  ) !important; /* Optional: Slightly scale the icon for more effect */
+}
+
+.header-text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+.text {
+  font-size: 17px;
+}
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
