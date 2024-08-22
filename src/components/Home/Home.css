@@ -73,7 +73,7 @@
 }
 
 /* Screen larger than 900px? 3 columns */
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
   }
