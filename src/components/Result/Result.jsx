@@ -397,7 +397,7 @@ function Result() {
                     borderCollapse: "collapse",
                   }}
                 >
-                  S
+                  A
                 </td>
               </tr>
               <tr>
@@ -1129,7 +1129,7 @@ function Result() {
                     borderCollapse: "collapse",
                   }}
                 >
-                  S
+                  B
                 </td>
               </tr>
               <tr>
